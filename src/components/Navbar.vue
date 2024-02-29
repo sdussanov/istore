@@ -36,8 +36,8 @@
 </template>
     
 <style>
-    .cart-img img {
-        margin-bottom: 5px;
-        margin-right: 5px;
-    }
+.cart-img img {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
 </style>
