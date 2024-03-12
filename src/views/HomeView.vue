@@ -5,6 +5,7 @@
     <ProductList :products="phones" />
     <ProductList :products="laptops" />
     <ProductList :products="ipads" />
+    <Footer />
 
 
   </main>
@@ -14,13 +15,16 @@
 import Navbar from '../components/Navbar.vue'
 import Carousel from '../components/Carousel.vue'
 import ProductList from '../components/ProductList.vue'
+import Footer from '../components/Footer.vue'
+
 
 
 export default {
   components: {
     Navbar,
     Carousel,
-    ProductList
+    ProductList,
+    Footer
   },
   data() {
     return {
