@@ -30,6 +30,7 @@ export default {
                     description: '256GB White',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "729 990 ₸",
+                    amount: 729990,
                     image: '../src/images/items/phone1.png'
                 },
                 {
@@ -37,6 +38,7 @@ export default {
                     description: '256GB Gray',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "599 990 ₸",
+                    amount: 599990,
                     image: '../src/images/items/phone2.png'
                 },
                 {
@@ -44,6 +46,7 @@ export default {
                     description: '256GB Pink',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "449 990 ₸",
+                    amount: 499990,
                     image: '../src/images/items/phone3.png'
                 },
                 {
@@ -59,6 +62,7 @@ export default {
                     description: '256GB White',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "334 990 ₸",
+                    amount: 334990,
                     image: '../src/images/items/phone5.png',
                     link: 'phone5'
                 }
@@ -69,6 +73,7 @@ export default {
                     description: '1TB SSD 16"',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "1 534 990 ₸",
+                    amount: 1534990,
                     image: '../src/images/items/mac1.png'
                 },
                 {
@@ -76,6 +81,7 @@ export default {
                     description: '1TB SSD 16"',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "1 119 990 ₸",
+                    amount: 1119990,
                     image: '../src/images/items/mac2.png'
                 },
                 {
@@ -83,6 +89,7 @@ export default {
                     description: '1TB SSD 16"',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "969 990 ₸",
+                    amount: 969990,
                     image: '../src/images/items/mac3.png'
                 },
                 {
@@ -90,6 +97,7 @@ export default {
                     description: '1TB SSD 16"',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "649 990 ₸",
+                    amount: 649990,
                     image: '../src/images/items/mac4.png'
                 },
                 {
@@ -97,6 +105,7 @@ export default {
                     description: '1TB SSD 13"',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "589 990 ₸",
+                    amount: 589990,
                     image: '../src/images/items/mac5.png'
                 }
             ],
@@ -106,6 +115,7 @@ export default {
                     description: '512GB Grey',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "699 990 ₸",
+                    amount: 699990,
                     image: '../src/images/items/ipad1.png'
                 },
                 {
@@ -113,6 +123,7 @@ export default {
                     description: '512GB White',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "509 990 ₸",
+                    amount: 509990,
                     image: '../src/images/items/ipad2.png'
                 },
                 {
@@ -120,6 +131,7 @@ export default {
                     description: '512GB Grey',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "384 990 ₸",
+                    amount: 384990,
                     image: '../src/images/items/ipad3.png'
                 },
                 {
@@ -127,6 +139,7 @@ export default {
                     description: '512GB Grey',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "159 990 ₸",
+                    amount: 159990,
                     image: '../src/images/items/ipad4.png'
                 },
                 {
@@ -134,6 +147,7 @@ export default {
                     description: '512GB Grey',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "319 990 ₸",
+                    amount: 319990,
                     image: '../src/images/items/ipad5.png'
                 }
             ]

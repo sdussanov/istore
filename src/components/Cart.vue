@@ -20,8 +20,13 @@
                     </div>
                 </div>
             </div>
-            <div class="text-end">
-                <button @click="clearCart" class="btn btn-secondary">Очистить корзину</button>
+            <div class="summary">
+                <div class="total">
+                    <p><strong>Общая сумма: </strong>{{ getTotalPrice() }}</p>
+                </div>
+                <div class="checkout-button">
+                    <button @click="checkout" class="btn btn-success">Оформить заказ</button>
+                </div>
             </div>
         </div>
     </div>
@@ -51,9 +56,31 @@ export default {
         clearCart() {
             this.cart = [];
             localStorage.removeItem('cart');
+        },
+        getTotalPrice() {
+            const totalPrice = this.cart.reduce((total, item) => total + parseFloat(item.amount), 0);
+            return totalPrice.toLocaleString('kk-KZ', { style: 'currency', currency: 'KZT' });
+        },
+        checkout() {
+            // Заготовка под кнопку оформить заказ
         }
     }
 };
 </script>
 
-<style></style>
+<style>
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.checkout-button {
+    margin-left: auto;
+}
+</style>
