@@ -35,8 +35,15 @@ export default {
       console.log("Подробнее о товаре", product);
     },
     addToCart(product) {
-      // тут будет действие на кнопку добавить в корзину, заготовка
-      console.log("Добавить в корзину", product);
+      let cart = localStorage.getItem('cart');
+      if (!cart) {
+        cart = [];
+      } else {
+        cart = JSON.parse(cart);
+      }
+      cart.push(product);
+      localStorage.setItem('cart', JSON.stringify(cart));
+      console.log("Добавлено в корзину", product);
     }
   }
 }
