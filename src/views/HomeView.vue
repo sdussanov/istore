@@ -27,35 +27,37 @@ export default {
             phones: [
                 {
                     name: 'iPhone 15 Pro Max',
-                    description: 'Описание товара 1',
+                    description: '256GB White',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "729 990 ₸",
-                    image: '../src/images/items/phone1.png',
-                    link: 'phone1'
+                    image: '../src/images/items/phone1.png'
                 },
                 {
                     name: 'iPhone 15 Pro',
-                    description: 'Описание товара 2',
+                    description: '256GB Gray',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "599 990 ₸",
-                    image: '../src/images/items/phone2.png',
-                    link: 'phone2'
+                    image: '../src/images/items/phone2.png'
                 },
                 {
                     name: 'iPhone 15',
-                    description: 'Описание товара 3',
+                    description: '256GB Pink',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "449 990 ₸",
-                    image: '../src/images/items/phone3.png',
-                    link: 'phone3'
+                    image: '../src/images/items/phone3.png'
                 },
                 {
                     name: 'iPhone 14',
-                    description: 'Описание товара 4',
+                    description: '256GB Blue',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "399 990 ₸",
                     image: '../src/images/items/phone4.png',
                     link: 'phone4'
                 },
                 {
                     name: 'iPhone 13',
-                    description: 'Описание товара 5',
+                    description: '256GB White',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "334 990 ₸",
                     image: '../src/images/items/phone5.png',
                     link: 'phone5'
@@ -64,75 +66,75 @@ export default {
             laptops: [
                 {
                     name: 'MacBook Pro 16 Apple M3 Pro',
-                    description: 'Описание товара 1',
+                    description: '1TB SSD 16"',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "1 534 990 ₸",
-                    image: '../src/images/items/mac1.png',
-                    link: 'mac1'
+                    image: '../src/images/items/mac1.png'
                 },
                 {
                     name: 'MacBook Pro 16 Apple M1 Pro',
-                    description: 'Описание товара 2',
+                    description: '1TB SSD 16"',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "1 119 990 ₸",
-                    image: '../src/images/items/mac2.png',
-                    link: 'mac2'
+                    image: '../src/images/items/mac2.png'
                 },
                 {
                     name: 'MacBook Pro 14 Apple M1 Pro',
-                    description: 'Описание товара 3',
+                    description: '1TB SSD 16"',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "969 990 ₸",
-                    image: '../src/images/items/mac3.png',
-                    link: 'mac3'
+                    image: '../src/images/items/mac3.png'
                 },
                 {
                     name: 'MacBook Pro 13 Apple M2',
-                    description: 'Описание товара 4',
+                    description: '1TB SSD 16"',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "649 990 ₸",
-                    image: '../src/images/items/mac4.png',
-                    link: 'mac4'
+                    image: '../src/images/items/mac4.png'
                 },
                 {
                     name: 'MacBook Air 13 Apple M2',
-                    description: 'Описание товара 5',
+                    description: '1TB SSD 13"',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "589 990 ₸",
-                    image: '../src/images/items/mac5.png',
-                    link: 'mac5'
+                    image: '../src/images/items/mac5.png'
                 }
             ],
             ipads: [
                 {
                     name: 'iPad Pro 12.9',
-                    description: 'Описание товара 1',
+                    description: '512GB Grey',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "699 990 ₸",
-                    image: '../src/images/items/ipad1.png',
-                    link: 'ipad1'
+                    image: '../src/images/items/ipad1.png'
                 },
                 {
                     name: 'iPad Pro 11',
-                    description: 'Описание товара 2',
+                    description: '512GB White',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "509 990 ₸",
-                    image: '../src/images/items/ipad2.png',
-                    link: 'ipad2'
+                    image: '../src/images/items/ipad2.png'
                 },
                 {
                     name: 'iPad Air 5',
-                    description: 'Описание товара 3',
+                    description: '512GB Grey',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "384 990 ₸",
-                    image: '../src/images/items/ipad3.png',
-                    link: 'ipad3'
+                    image: '../src/images/items/ipad3.png'
                 },
                 {
                     name: 'iPad 10.2',
-                    description: 'Описание товара 4',
+                    description: '512GB Grey',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "159 990 ₸",
-                    image: '../src/images/items/ipad4.png',
-                    link: 'ipad4'
+                    image: '../src/images/items/ipad4.png'
                 },
                 {
                     name: 'iPad mini 6',
-                    description: 'Описание товара 5',
+                    description: '512GB Grey',
+                    fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "319 990 ₸",
-                    image: '../src/images/items/ipad5.png',
-                    link: 'ipad5'
+                    image: '../src/images/items/ipad5.png'
                 }
             ]
         }

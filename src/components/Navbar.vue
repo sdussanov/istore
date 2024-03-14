@@ -3,8 +3,9 @@
         <div class="container">
             <a class="navbar-brand" href="/"><img class="apple-logo" src="../images/nb-logo.svg" alt="apple-logo"
                     width="40px" height="40px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,7 +35,7 @@
         </div>
     </nav>
 </template>
-    
+
 <style>
 .cart-img img {
     margin-bottom: 5px;
