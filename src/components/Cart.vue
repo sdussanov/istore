@@ -5,15 +5,16 @@
             Корзина пуста
         </div>
         <div v-else>
-            <div v-for="(item, index) in cart" :key="index" class="card mb-3">
+            <div v-for="(item, index) in cart" :key="index" class="card mb-4">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img :src="item.image" class="img-fluid rounded-start" alt="Product Image">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                         <div class="card-body">
                             <h5 class="card-title">{{ item.name }}</h5>
                             <p class="card-text">{{ item.description }}</p>
+                            <p class="card-text">{{ item.fulldescription }}</p>
                             <p class="card-text"><strong>Цена: </strong>{{ item.price }}</p>
                             <button @click="removeFromCart(index)" class="btn btn-danger">Удалить из корзины</button>
                         </div>
