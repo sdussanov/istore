@@ -2,9 +2,20 @@
     <main>
         <Navbar />
         <Carousel />
-        <ProductList :products="phones" />
-        <ProductList :products="laptops" />
-        <ProductList :products="ipads" />
+        <div class="container">
+            <section>
+                <h1 class="item-titles">Телефоны</h1>
+                <ProductList :products="phones" />
+            </section>
+            <section>
+                <h1 class="item-titles">Ноутбуки</h1>
+                <ProductList :products="laptops" />
+            </section>
+            <section>
+                <h1 class="item-titles">Планшеты</h1>
+                <ProductList :products="ipads" />
+            </section>
+        </div>
         <Footer />
     </main>
 </template>
@@ -54,6 +65,7 @@ export default {
                     description: '256GB Blue',
                     fulldescription: 'Display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).',
                     price: "399 990 ₸",
+                    amount: 399990,
                     image: '../src/images/items/phone4.png',
                     link: 'phone4'
                 },
@@ -155,3 +167,12 @@ export default {
     }
 }
 </script>
+<style>
+.item-titles {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    font-size: 27pt;
+    font-weight: bold;
+}
+</style>
